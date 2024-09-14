@@ -1,0 +1,329 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  background-color: bisque;
+  padding: 27px 45px;
+}
+.container{
+  width: 100%;
+}
+.header-inn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-inn .menu ul{
+  display: flex;
+  /* position: absolute; */
+  margin-left: 100px;
+}
+.header-inn .menu ul li{
+  list-style: none;
+  /* margin: 31px 0px; */
+  /* position: absolute; */
+}
+.header-inn .menu ul li a{
+  padding: 15px 30px;
+  color: #2b2b2b;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  font-family: sans-serif;
+}
+.header-inn .menu ul li a:hover{
+  background-color: #f0390f;
+  color: aliceblue;
+}
+
+ 
+
+.slider-bann{
+  background-color: #fff;
+}
+.slider-bann-inn{
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-bann-inn .left-sec{
+  width: 40%;
+  height: 700px;
+  /* background-color: #2b2b2b; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 200px;
+}
+.slider-bann-inn .left-sec .box-red{
+  width: 70px;
+  height: 18px;
+  border-radius: 20px;
+  background-color: #f0390f;
+  padding-bottom: 20p;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.slider-bann-inn .left-sec .box-blue{
+  width: 70px;
+  height: 18px;
+  border-radius: 20px;
+  background-color: blue;
+}
+.slider-bann-inn .left-sec h1{
+  padding-top: 60px;
+  font-size: 70px;
+  line-height: 85px;
+  color: #2b2b2b;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.slider-bann-inn .left-sec a{
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #2b2b2b;
+  margin: 50px 10px;
+}
+.slider-bann-inn .right-sec{
+  width: 60%;
+  height: 700px;
+}
+.slider-bann-inn .right-sec .bann-img{
+  padding: 50px;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.slider-bann-inn .right-sec .bann-img .imgae{
+  width: 800px;
+}
+.ckating-card{
+  background-color: #fff;
+}
+.ckating-in{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ckating-in .cketing-type{
+  width: 100%;
+  height: 200px;
+  padding-top: 70px;
+}
+.ckating-in .cketing-type h1{
+  text-align: center;
+  font-size: 60px;
+  color: #2b2b2b;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.ckating-in .cketing-type p{
+  text-align: center;
+  font-size: 20px;
+  color: #2b2b2b;
+  font-family: sans-serif;
+}
+.ckating-in .card-sec{ 
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 500px;
+    gap: 30px;
+}
+.ckating-in .card-sec .first-card{
+  width: 350px;
+  height: 450px;
+  background-color: #f0390f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ckating-in .card-sec .first-card img{
+  width: 100px;
+  margin: 20px;
+}
+.ckating-in .card-sec .first-card h2{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
+  margin: 10px;
+}
+.ckating-in .card-sec .first-card p{
+  text-align: center;
+  color: #ffff;
+  font-size: 17px;
+  margin: 47px;
+  line-height: 32px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+.se-card{
+  width: 350px;
+  height: 450px;
+  background-color: blue;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ckating-in .card-sec .se-card img{
+  width: 100px;
+  margin: 20px;
+}
+.ckating-in .card-sec .se-card h2{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
+  margin: 10px;
+}
+.ckating-in .card-sec .se-card p{
+  text-align: center;
+  color: #ffff;
+  font-size: 17px;
+  margin: 47px;
+  line-height: 32px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+.tha-card{
+  width: 350px;
+  height: 450px;
+  background-color: #f0390f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ckating-in .card-sec .tha-card img{
+  width: 100px;
+  margin: 20px;
+}
+.ckating-in .card-sec .tha-card h2{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
+  margin: 10px;
+}
+.ckating-in .card-sec .tha-card p{
+  text-align: center;
+  color: #ffff;
+  font-size: 17px;
+  margin: 47px;
+  line-height: 32px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+.about-sec{
+  background-image: url(../image/about_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.about-inn{
+  width: 100%;
+  height: 720px;
+  display: flex;
+  align-items: center;
+}
+.about-inn .ab-left-sec{
+  width: 50%;
+  height: 700px;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 212px;
+}
+.about-inn .ab-left-sec h1{
+  font-size: 60px;
+  font-family: sans-serif;
+  color: #fff;
+}
+.about-inn .ab-left-sec p{
+  font-family: sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+  margin: 10px;
+  color: #fff;
+  margin-left: 0px;
+}
+.about-inn .ab-left-sec a{
+  color: #fff;
+}
+.about-inn .ab-right-sec{
+  width: 50%;
+  height: 750px;
+  /* background-color: #f0390f; */
+  position: relative;
+}
+
+.about-inn .ab-right-sec img{
+  width: 677px;
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+}
+.skate-shop{
+  background-color: #fff;
+}
+.skate-shop-inner{
+  width: 100%;
+  height: 780px;
+  display: flex;
+}
+.skate-shop-inner .left{
+  width: 50%;
+  height: 780px;
+  padding: 20px;
+  padding-left: 90px;
+}
+.skate-shop-inner .left img{
+  width: 666px;
+}
+.skate-shop-inner .right{
+  width: 50%;
+  height: 780px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.skate-shop-inner .right h1{
+  color: #2b2b2b;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.skate-shop-inner .right p{
+  font-size: 18px;
+  font-family: cursive;
+  color: #2b2b2b;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
