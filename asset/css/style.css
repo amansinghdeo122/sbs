@@ -6,12 +6,13 @@
 html,body{
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;
 }
 .header{
-  background-color: bisque;
+  background-color: #ffff;
   padding: 27px 45px;
 }
 .container{
@@ -46,20 +47,30 @@ a{
   background-color: #f0390f;
   color: aliceblue;
 }
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
 
- 
-
-.slider-bann{
+.swiper-container .swiper-slide {
+  background-color: #f3f3f3;
+  text-align: center;
+  font-size: 18px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.swiper-container .swiper-slide .slider-bann{
   background-color: #fff;
 }
-.slider-bann-inn{
+.swiper-container .swiper-slide .slider-bann-inn{
   width: 100%;
   height: 700px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
 }
-.slider-bann-inn .left-sec{
+.swiper-container .swiper-slide .slider-bann-inn .left-sec{
   width: 40%;
   height: 700px;
   /* background-color: #2b2b2b; */
@@ -69,7 +80,7 @@ a{
   justify-content: center;
   padding-left: 200px;
 }
-.slider-bann-inn .left-sec .box-red{
+.swiper-container .swiper-slide .slider-bann-inn .left-sec .box-red{
   width: 70px;
   height: 18px;
   border-radius: 20px;
@@ -78,38 +89,42 @@ a{
   margin-bottom: 20px;
   margin-left: 40px;
 }
-.slider-bann-inn .left-sec .box-blue{
+.swiper-container .swiper-slide .slider-bann-inn .left-sec .box-blue{
   width: 70px;
   height: 18px;
   border-radius: 20px;
   background-color: blue;
 }
-.slider-bann-inn .left-sec h1{
+.swiper-container .swiper-slide .slider-bann-inn .left-sec h1{
   padding-top: 60px;
   font-size: 70px;
   line-height: 85px;
   color: #2b2b2b;
   font-weight: bold;
   font-family: sans-serif;
+  text-align: left;
 }
-.slider-bann-inn .left-sec a{
+.swiper-container .swiper-slide .slider-bann-inn .left-sec a{
   font-size: 18px;
   font-family: sans-serif;
   color: #2b2b2b;
   margin: 50px 10px;
+  text-align: left;
 }
-.slider-bann-inn .right-sec{
+.swiper-container .swiper-slide .slider-bann-inn .right-sec{
   width: 60%;
   height: 700px;
+  position: relative;
 }
-.slider-bann-inn .right-sec .bann-img{
-  padding: 50px;
+.swiper-container .swiper-slide .slider-bann-inn .right-sec .bann-img{
+  /* padding: 50px; */
   width: 100%;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
+  top: 0px;
+  right: 0px;
+  position: absolute;
 }
-.slider-bann-inn .right-sec .bann-img .imgae{
+.swiper-container .swiper-slide .slider-bann-inn .right-sec .bann-img .imgae{
   width: 800px;
 }
 .ckating-card{

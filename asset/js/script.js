@@ -1,14 +1,15 @@
-// const testimonials = document.querySelectorAll('.testimonial');
-// let currentIndex = 0;
-
-// document.getElementById('next').addEventListener('click', function() {
-//   testimonials[currentIndex].classList.remove('active');
-//   currentIndex = (currentIndex + 1) % testimonials.length;
-//   testimonials[currentIndex].classList.add('active');
-// });
-
-// document.getElementById('prev').addEventListener('click', function() {
-//   testimonials[currentIndex].classList.remove('active');
-//   currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
-//   testimonials[currentIndex].classList.add('active');
-// });
+var swiper = new Swiper('.swiper-container', {
+  loop: true, // Loop through slides
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      
+  },
+  // navigation: {
+  //     nextEl: '.swiper-button-next',
+  //     prevEl: '.swiper-button-prev',
+  // },
+});
