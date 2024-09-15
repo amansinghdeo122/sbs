@@ -1,3 +1,8 @@
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('.wrapper'),
+  smooth: true
+});
+
 var swiper = new Swiper('.swiper-container', {
   loop: true, // Loop through slides
   autoplay:true,
