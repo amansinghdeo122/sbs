@@ -11,7 +11,7 @@
   }
   .swiper-container {
     width: 100%;
-    height: 100%;
+    height: 90%;
   }
 
   .swiper-container .swiper-slide {
@@ -25,7 +25,7 @@
   .swiper-container .swiper-slide .slider-bann{
     background-color: #fff;
     width: 100%;
-    height: 850px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@
   .slider-bann .slider-bann-inn{
     background-color: #fff;
     width: 100%;
-    height: 850px;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,13 +42,13 @@
     flex-direction: column;
   }
   .slider-bann .slider-bann-inn .left-sec{
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: 550px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 66px;
+    padding-left: 20px;
   }
   .slider-bann-inn .left-sec .box-red{
     width: 70px;
@@ -69,7 +69,7 @@
   }
   .slider-bann-inn .left-sec h1{
     /* padding-top: 60px; */
-    font-size: 5rem;
+    font-size: 18vw;
     /* line-height: 85px; */
     color: #2b2b2b;
     font-weight: bold;
@@ -85,21 +85,21 @@
   }
   .slider-bann-inn .right-sec{
     width: 100%;
-    height: 600px;
+    height: 250px;
   }
   .slider-bann-inn .right-sec .bann-img{
     width: 100%;
-    height: 400px;
+    height: 154px;
   }
   .slider-bann .slider-bann-inn .right-sec .bann-img img{
-    width: 400px;
+    width: 80%;
   }
   .ckating-card{
     background-color: #fff;
   }
   .ckating-in{
     width: 100%;
-    height: 2000px;
+    height: 1800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,12 +107,12 @@
   }
   .ckating-in .cketing-type{
     width: 100%;
-    height: 220px;
+    height: 240px;
     padding-top: 40px;
   }
   .ckating-in .cketing-type h1{
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 10vw;
     color: #2b2b2b;
     font-family: sans-serif;
     margin-bottom: 30px;
@@ -120,7 +120,7 @@
   }
   .ckating-in .cketing-type p{
     text-align: center;
-    font-size: 18px;
+    font-size: 5.2vw;
     color: #2b2b2b;
     font-family: sans-serif;
   }
@@ -136,7 +136,7 @@
     gap: 30px;
   }
   .ckating-in .card-sec .first-card{
-    width: 370px;
+    width: 90%;
     height: 450px;
     background-color: #f0390f;
     border-radius: 20px;
@@ -146,7 +146,7 @@
   }
   
   .se-card{
-    width: 370px;
+    width: 90%;
     height: 450px;
     background-color: blue;
     border-radius: 20px;
@@ -156,7 +156,7 @@
   }
   
   .tha-card{
-    width: 370px;
+    width: 90%;
     height: 450px;
     background-color: #f0390f;
     border-radius: 20px;
