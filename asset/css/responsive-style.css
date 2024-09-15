@@ -5,6 +5,7 @@
   }
   .header{
     width: 100%;
+    padding: 10px;
   }
   .menu{
     display: none;
@@ -298,5 +299,8 @@
     justify-content: center;
     background-color: #f0390f;
     padding: 26px 10px;
+  }
+  .last-footer p{
+    text-align: center;
   }
 }
