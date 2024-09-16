@@ -18,3 +18,15 @@ var swiper = new Swiper('.swiper-container', {
   //     prevEl: '.swiper-button-prev',
   // },
 });
+
+var swiper = new Swiper('.testimal', {
+  loop: true,
+  autoplay: {
+    delay: 2000,
+    pauseOnMouseEnter: true // This replaces autoplayHoverPause
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  }
+});

@@ -48,7 +48,46 @@ a{
   width: 100%;
   height: 100%;
 }
+.header-inn .search-icon {
+  width: 10%;
+  height: 30px;
+}
+.header-inn .search-icon ul {
+  display: flex;
+  /* margin: 10px; */
+}
+.header-inn .search-icon ul li{
+  list-style: none;
+  margin-left: 10px;
+}
 
+.header-inn .search-icon ul li  .fa-facebook {
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
+.header-inn .search-icon ul li  .fa-twitter{
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
+.header-inn .search-icon ul li  .fa-linkedin {
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
 .swiper-container .swiper-slide {
   background-color: #f3f3f3;
   text-align: center;
@@ -339,6 +378,50 @@ a{
   line-height: 28px;
   margin-bottom: 20px;
 }
+.testimal{
+  background-color: #104df7;
+  width: 100%;
+  height: 100%;
+}
+.testimal-slide{
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+.testimal-container h1{
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  padding: 66px;
+  padding-bottom: 0px;
+  font-size: 70px;
+}
+.testimal-container .massegbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  width: 100%;
+  height: 500px;
+}
+.testimal-container .massegbox .box-one{
+  width: 300px;
+  height: 300px;
+  background-color: #f0390f;
+  border-radius: 20px;
+}
+.testimal-container .massegbox .box-to{
+  width: 550px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.testimal-container .massegbox .box-thre{
+  width: 300px;
+  height: 300px;
+  background-color: #f0390f;
+  border-radius: 20px;
+}
 .footer{
   background-color: #fff;
 }
@@ -364,7 +447,47 @@ a{
 }
 .fotter-in .box1 p{
   font-family: sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.fotter-in .box1 .search-icon {
+  width: 10%;
+  height: 30px;
+}
+.fotter-in .box1 .search-icon ul {
+  display: flex;
+  /* margin: 10px; */
+}
+.fotter-in .box1 .search-icon ul li{
+  list-style: none;
+  margin-right: 10px;
+}
+
+.fotter-in .box1 .search-icon ul li  .fa-facebook {
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
+.fotter-in .box1 .search-icon ul li  .fa-twitter{
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
+.fotter-in .box1 .search-icon ul li  .fa-linkedin {
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
 }
 .fotter-in .box2{
   width: 400px;
