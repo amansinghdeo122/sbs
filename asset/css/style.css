@@ -378,49 +378,119 @@ a{
   line-height: 28px;
   margin-bottom: 20px;
 }
-.testimal{
-  background-color: #104df7;
-  width: 100%;
-  height: 100%;
+.testimal {
+  background-color: #3e0bce;
 }
-.testimal-slide{
+.testimal-slide {
   width: 100%;
   height: 700px;
   overflow: hidden;
 }
-.testimal-container h1{
+.testimal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.testimal-container .test-m {
   text-align: center;
   font-family: sans-serif;
   color: #fff;
-  padding: 66px;
-  padding-bottom: 0px;
-  font-size: 70px;
+  padding: 16px;
+  padding-bottom: 100px;
+  font-size: 6vw; /* Responsive font size */
 }
-.testimal-container .massegbox{
+.testimal-container .massegbox {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 46px;
   width: 100%;
-  height: 500px;
+  max-width: 1200px;
+  height: auto;
+  flex-wrap: wrap; /* Make boxes wrap on smaller screens */
 }
-.testimal-container .massegbox .box-one{
+.box-one, .box-to, .box-thre {
   width: 300px;
   height: 300px;
   background-color: #f0390f;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.testimal-container .massegbox .box-to{
-  width: 550px;
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -42px;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+img{
+  width: 58px;
+  object-position: bottom;
+  object-fit: contain;
+}
+.Disol {
+  color: #fff;
+  font-size: 2vw;
+  margin: 26px 0px;
+}
+.te{
+  max-width: 24px;
+}
+p {
+  text-align: center;
+  font-size: 13px;
+  margin: 20px;
+  font-family: sans-serif;
+  color: #fff;
+}
+/* Larger box */
+.box-to {
+  width: 400px;
   height: 400px;
   background-color: #fff;
   border-radius: 20px;
+  justify-content: center;
+  position: relative;
 }
-.testimal-container .massegbox .box-thre{
-  width: 300px;
-  height: 300px;
-  background-color: #f0390f;
-  border-radius: 20px;
+.box-to p {
+  margin: 24px 60px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.1vw;
+  line-height: 23px;
+  color: #000 !important;
+}
+.box-to .img-box-two{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+  margin-top: -128px;
+  background-color: #ffff;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 31px -7px #888888;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.box-to .Disol-box-tow{
+  color: #000;
+  margin-top: 48px;
+  margin-bottom: 12px;
+  font-size: 40px;
+  font-family: sans-serif;
+
 }
 .footer{
   background-color: #fff;
