@@ -29,7 +29,7 @@ var swiper = new Swiper('.testimal-tow', {
     el: '.swiper-pagination',
     clickable: true,
   }
-});
+}); 
 var tl = gsap.timeline();
 
 tl.from(".header, .header-inn, .logo", {
