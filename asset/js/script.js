@@ -19,7 +19,7 @@ var swiper = new Swiper('.swiper-container', {
   // },
 });
 
-var swiper = new Swiper('.testimal', {
+var swiper = new Swiper('.testimal-tow', {
   loop: true,
   autoplay: {
     delay: 2000,
