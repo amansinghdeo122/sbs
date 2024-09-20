@@ -410,7 +410,7 @@ a{
   height: auto;
   flex-wrap: wrap; /* Make boxes wrap on smaller screens */
 }
-.box-one, .box-to, .box-thre {
+.testimal-container .massegbox .box-one, .box-to, .box-thre {
   width: 300px;
   height: 300px;
   background-color: #f0390f;
@@ -420,7 +420,7 @@ a{
   align-items: center;
   margin-bottom: 20px;
 }
-.img {
+.testimal-container .massegbox .img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -433,20 +433,20 @@ a{
   align-items: center;
   overflow: hidden;
 }
-img{
+.testimal-container .massegbox img{
   width: 58px;
   object-position: bottom;
   object-fit: contain;
 }
-.Disol {
+.testimal-container .massegbox .Disol {
   color: #fff;
   font-size: 2vw;
   margin: 26px 0px;
 }
-.te{
+.testimal-container .massegbox .te{
   max-width: 24px;
 }
-p {
+.testimal-container .massegbox p {
   text-align: center;
   font-size: 13px;
   margin: 20px;
@@ -454,7 +454,7 @@ p {
   color: #fff;
 }
 /* Larger box */
-.box-to {
+.testimal-container .massegbox .box-to {
   width: 400px;
   height: 400px;
   background-color: #fff;
@@ -462,7 +462,7 @@ p {
   justify-content: center;
   position: relative;
 }
-.box-to p {
+.testimal-container .massegbox .box-to p {
   margin: 24px 60px;
   text-align: center;
   font-family: sans-serif;
@@ -470,7 +470,7 @@ p {
   line-height: 23px;
   color: #000 !important;
 }
-.box-to .img-box-two{
+.testimal-container .massegbox .box-to .img-box-two{
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -484,7 +484,7 @@ p {
   justify-content: center;
   overflow: hidden;
 }
-.box-to .Disol-box-tow{
+.testimal-container .massegbox .box-to .Disol-box-tow{
   color: #000;
   margin-top: 48px;
   margin-bottom: 12px;
@@ -518,6 +518,7 @@ p {
 .fotter-in .box1 p{
   font-family: sans-serif;
   margin-bottom: 20px;
+  color: #000;
 }
 .fotter-in .box1 .search-icon {
   width: 10%;

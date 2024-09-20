@@ -340,7 +340,7 @@
       height: 709PX;
       flex-wrap: wrap;
     }
-    .box-one, .box-to, .box-thre {
+    .testimal-container .massegbox .box-one, .box-to, .box-thre {
       width: 250px;
       height: 250px;
       background-color: #f0390f;
@@ -350,7 +350,7 @@
       align-items: center;
       margin-bottom: 20px;
     }
-    .img {
+    .testimal-container .massegbox .img {
       width: 80px;
       height: 80px;
       border-radius: 50%;
@@ -359,12 +359,12 @@
       background-size: cover;
       background-position: center;
     }
-    .Disol {
+    .testimal-container .massegbox .Disol {
       color: #fff;
       font-size: 8vw;
       margin: 26px 0px;
     }
-    p {
+    .testimal-container .massegbox p {
       text-align: center;
       font-size: 13px;
       margin: 20px;
@@ -372,7 +372,7 @@
       color: #fff;
     }
     /* Larger box */
-    .box-to {
+    .testimal-container .massegbox .box-to {
       width: 373px;
       height: 325px;
       background-color: #fff;
@@ -380,7 +380,7 @@
       justify-content: center;
       position: relative;
     }
-    .box-to p {
+    .testimal-container .massegbox .box-to p {
       margin: 10px 6px;
       text-align: center;
       font-family: sans-serif;
@@ -388,10 +388,10 @@
       line-height: 23px;
       color: black;
     }
-    .box-to .Disol-box-tow{
+    .testimal-container .massegbox .box-to .Disol-box-tow{
       color: #000;
     }
-    .box-to .img-box-two{
+    .testimal-container .massegbox .box-to .img-box-two{
       width: 80px;
       height: 80px;
       border-radius: 50%;
