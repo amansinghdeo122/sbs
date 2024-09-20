@@ -30,7 +30,6 @@ var swiper = new Swiper('.testimal-tow', {
     clickable: true,
   }
 });
-
 var tl = gsap.timeline();
 
 tl.from(".header, .header-inn, .logo", {
